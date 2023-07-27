@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Intern.DataAccess.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Intern.DataAccess
 {
@@ -8,5 +9,6 @@ namespace Intern.DataAccess
         {
         }
 
+        public DbSet<Employee> Employees { get; set; }
     }
 }
