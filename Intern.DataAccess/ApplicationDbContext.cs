@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace DataAccess
+namespace Intern.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {
